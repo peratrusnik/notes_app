@@ -51,7 +51,6 @@ function App() {
       event.stopPropagation()
       setNotes(oldNotes => oldNotes.filter((note)=> note.id !== noteId))
       // console.log('delete note', noteId);
-        // Your code here
     }
     
     function findCurrentNote() {
